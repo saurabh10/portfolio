@@ -21,6 +21,4 @@ export default function Home() {
       <Footer />
     </div>
   );
-
-  <div>TEST HOME</div>
 }

@@ -67,7 +67,7 @@ export default function Footer() {
 
           {/* Arrow */}
           <a
-            href="#"
+            href="/"
             className="p-3 rounded-xl bg-gray-900 border border-gray-800 hover:bg-green-600 hover:text-white transition"
           >
             <ArrowUpRight size={18} />
