@@ -221,7 +221,7 @@ export default function About() {
 
   {/* Heading Text */}
   <p className="text-gray-400 mb-6 text-lg">
-    Please download my <span className="text-white font-semibold">Portfolio</span> and <span className="text-white font-semibold">Resume</span>
+    Please download my <span className="text-white font-semibold">Resume</span> and <span className="text-white font-semibold">Portfolio</span>
   </p>
 
   {/* Buttons */}
@@ -238,7 +238,7 @@ export default function About() {
 
     {/* Portfolio Button */}
     <a
-      href="/portfolio.pdf"
+      href="/Portfolio.pdf"
       download
       className="border border-primary text-primary px-6 py-3 rounded-lg transition hover:bg-primary hover:text-white hover:scale-105"
     >
