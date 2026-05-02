@@ -229,7 +229,7 @@ export default function About() {
 
     {/* Resume Button */}
     <a
-      href="/resume.pdf"
+      href="/Saurabh Gupta Resume.pdf"
       download
       className="bg-primary hover:bg-primary-dark text-white px-6 py-3 rounded-lg transition shadow-md hover:scale-105"
     >
