@@ -3,6 +3,12 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const testimonials = [
   {
+    name: "Carole Sarkis Ramy",
+    role: "CEO at Fattal Group",
+    text: "We approached Saurabh to build a mobile app for our business, and the results exceeded our expectations. The app improved our customer engagement and streamlined our operations significantly. The UI is intuitive, performance is fast, and the overall experience is excellent. is dedication, communication, and technical expertise made the entire process seamless.",
+    image: "https://i.ibb.co/99kkrjGH/female-avatar-2.png",
+  },
+  {
     name: "Rashid Khan",
     role: "Co-Founder at OrderGenie Synergy",
     isHTML: true,
@@ -19,16 +25,10 @@ const testimonials = [
       "https://media.licdn.com/dms/image/v2/D5603AQE4KPPCg1YKUw/profile-displayphoto-scale_400_400/B56ZlwpNMwHkAg-/0/1758531475166?e=1779321600&v=beta&t=7Bot4UvCIdG-kXVtcTbeGqzNQetT7UYaNX0KnjFMeHk",
   },
   {
-    name: "Aman Verma",
-    role: "CTO at StartupX",
-    text: "We approached Saurabh to build a mobile app for our business, and the results exceeded our expectations. The app improved our customer engagement and streamlined our operations significantly. The UI is intuitive, performance is fast, and the overall experience is excellent. is dedication, communication, and technical expertise made the entire process seamless.",
-    image: "https://randomuser.me/api/portraits/men/45.jpg",
-  },
-  {
-    name: "Priya Sharma",
+    name: "Ziad El Hakim",
     role: "Product Manager at FinTech",
     text: "Saurabh delivered a high-quality cross-platform mobile app with smooth performance and clean UI. Very professional, responsive, and reliable throughout the project.",
-    image: "https://randomuser.me/api/portraits/women/65.jpg",
+    image: "https://i.ibb.co/S7npGDHq/male-avatar-2.png",
   },
 ];
 
@@ -39,7 +39,7 @@ export default function Testimonials() {
   useEffect(() => {
     const interval = setInterval(() => {
       setIndex((prev) => (prev + 1) % testimonials.length);
-    }, 4000);
+    }, 6000);
 
     return () => clearInterval(interval);
   }, []);

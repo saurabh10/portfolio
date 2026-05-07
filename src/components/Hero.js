@@ -137,9 +137,12 @@ export default function Hero() {
         transition={{ delay: 0.5 }}
         className="mt-4 text-gray-400 max-w-2xl mx-auto"
       >
-        Senior <span className="font-bold text-white">iOS & Flutter</span> Engineer with deep expertise in mobile architecture, 
+        Innovative Mobile Architect & Senior <span className="font-bold text-white">iOS & Flutter Engineer</span> with expertise in scalable architectures, 
+        SDK development, and performance optimization—delivering secure, 
+        high-impact applications with exceptional user experience.
+        {/* Senior <span className="font-bold text-white">iOS & Flutter</span> Engineer with deep expertise in mobile architecture, 
         SDK design, performance optimization, 
-        and fintech security, delivering real-world applications that balance clean UX with robust engineering.
+        and fintech security, delivering real-world applications that balance clean UX with robust engineering. */}
       </motion.p>
 
       {/* Buttons */}
