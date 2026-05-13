@@ -19,3 +19,9 @@ code {
 html {
   scroll-behavior: smooth;
 }
+
+:root {
+  --primary: #2563eb;
+  --primary-dark: #1e40af;
+  --bg-dark: #0B1120;
+}
